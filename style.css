@@ -106,6 +106,9 @@ h1 {
         width: 100px;
         font-size: 0.9rem;
     }
+    .Choose button{
+        margin-top: 5px;
+    }
 }
 
 @media (max-width: 400px) {
@@ -137,8 +140,8 @@ h1 {
 }
 .Choose button{
     padding: 5px;
-    width: 180px;
-    height: 50px;
+    width: 210px;
+    
     background-color: lightseagreen;
     border: none;
     outline: none;
@@ -178,4 +181,8 @@ h3{
 .exit button:hover{
     background-color: crimson;
     transform: scale(1.05);
+}
+
+button .ai{
+    height: 50px;
 }
